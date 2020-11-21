@@ -28,11 +28,12 @@ const SocialNetworkItem = ({item}) => {
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
+      //flex: 1,
       width: width / 3,
       height: height / 10,
       marginVertical: 10,
-      marginHorizontal: 10,
+      //marginHorizontal: 10,
+      marginRight: 10,
       borderRadius: 10,
     },
     containerText: {
@@ -51,17 +52,14 @@ const styles = StyleSheet.create({
     image: {
       width: width / 12,
       height: height / 25,
-      //borderRadius: 10,
     },
     itemTitle: {
       color: '#FFF',
       fontSize: 16,
       shadowColor: '#000000',
       shadowOffset: {width: 0.8, height: 0.8},
-      //textAlign: 'center',
       shadowOpacity: 1,
       shadowRadius: 3,
-      //marginBottom: 3,
       fontWeight: 'bold',
       elevation: 5,
     },

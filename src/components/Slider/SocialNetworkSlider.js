@@ -7,7 +7,7 @@ const SocialNetworkSlider = ({data}) => {
 
     if (data && data.length) {
         return (
-        <View style={{flex: 1}}>
+        <View style={styles.container}>
             <FlatList
             data={data}
             keyExtractor={(item, index) => 'key' + index}
@@ -31,10 +31,10 @@ const SocialNetworkSlider = ({data}) => {
 }
 
 const styles = StyleSheet.create({
-    dot: {
-      flexDirection: 'row',
-      justifyContent: 'center',
-    },
+    container: {
+        //height:50,
+        flex:1,
+    }
 });
 
 export default SocialNetworkSlider;
